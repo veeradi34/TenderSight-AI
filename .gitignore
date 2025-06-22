@@ -1,0 +1,40 @@
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.venv/
+tender-agent-env/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Log files
+*.log
+
+# Local development databases
+*.db
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db

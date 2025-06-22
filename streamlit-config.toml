@@ -1,0 +1,15 @@
+# This file is used by Streamlit Cloud to determine how to run the app
+[deploy]
+main = "cloud_app.py"
+runtime = "python3.11"
+install_command = "pip install -r requirements.txt"
+
+[build]
+compatibilityDate = "2023-05-01"
+
+[env]
+USER_AGENT = "Tender Agent/1.0"
+
+[build.install]
+pre_install = "pip install playwright"
+post_install = "playwright install --with-deps chromium"
